@@ -1,0 +1,231 @@
+{
+  "mod_elements": [
+    {
+      "name": "Moneymoney",
+      "type": "achievement",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moneymoney",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/brassburg/advancements/moneymoney.json"
+        ]
+      }
+    },
+    {
+      "name": "Brassburgcoin",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/brassburg/models/item/coin.json",
+          "src/main/java/se/brassburg/item/BrassburgcoinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Millionaire",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "millionaire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/brassburg/advancements/millionaire.json"
+        ]
+      }
+    },
+    {
+      "name": "Brassburg",
+      "type": "painting",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logo_painting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vonpainting1",
+      "type": "painting",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vonpainting_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vonpainting2",
+      "type": "painting",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vonpainting_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vonpainting3",
+      "type": "painting",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vonpainting_3",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vonpainting4",
+      "type": "painting",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vonpainting_4",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Jayturnpainting1",
+      "type": "painting",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jayturnpainting_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Manstedodorpainting1",
+      "type": "painting",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manstedodorpainting_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Manstedodorpainting2",
+      "type": "painting",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manstedodorpainting_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Mrstepipainting1",
+      "type": "painting",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mrstepipainting_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Mrstepipainting2",
+      "type": "painting",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mrstepipainting_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Mrstepipainting3",
+      "type": "painting",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mrstepipainting_3",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Brassburgatm",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/brassburg/models/block/atm.json",
+          "src/main/java/se/brassburg/block/BrassburgatmBlock.java",
+          "src/main/resources/assets/brassburg/blockstates/atm.json",
+          "src/main/resources/assets/brassburg/models/item/atm.json"
+        ]
+      }
+    },
+    {
+      "name": "Brassburgmod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brassburg",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.moneymoney.title": "Money Money!",
+      "advancements.millionaire.title": "Millionaire!",
+      "block.brassburg_mod.brassburgatm": "Brassburg ATM",
+      "item.brassburg.coin": "Brassburg Coin",
+      "itemGroup.brassburg_mod.brassburgmod": "Brassburg",
+      "block.brassburg.atm": "Brassburg ATM",
+      "item.brassburg_mod.brassburgcoin": "Brassburg Coin",
+      "itemGroup.brassburg.brassburg": "Brassburg",
+      "advancements.millionaire.descr": "You are a rich bitch!",
+      "advancements.moneymoney.descr": "You have just earned your first coin of Brassburg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "brassburg",
+    "modName": "Brassburg Mod",
+    "version": "1.0.2",
+    "description": "A dedicated mod for Brassburg server.",
+    "author": "Tur, JayTurnr, Aufstandsboxer",
+    "websiteURL": "brassburg.se",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "pxart",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "modElementsPackage": "se.brassburg",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300222518
+}

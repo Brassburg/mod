@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "painting",
+  "definition": {
+    "texture": "von_2x1.png",
+    "width": 32,
+    "height": 16,
+    "title": "Vonpainting 3",
+    "author": "VonCrotchBeard"
+  }
+}

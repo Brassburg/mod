@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "brassburg:block/atm"
+    },
+    "facing=east": {
+      "model": "brassburg:block/atm",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "brassburg:block/atm",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "brassburg:block/atm",
+      "y": 270
+    }
+  }
+}

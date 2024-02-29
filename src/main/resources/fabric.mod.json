@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "brassburg",
+  "version": "1.0.2",
+  "name": "Brassburg Mod",
+  "description": "A dedicated mod for Brassburg server.",
+  "authors": [
+    "Tur, JayTurnr, Aufstandsboxer"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/brassburg/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "se.brassburg.BrassburgMod"
+    ],
+    "client": [
+      "se.brassburg.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "brassburg.mixins.json"
+  ]
+}

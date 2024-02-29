@@ -1,0 +1,12 @@
+{
+  "parent": "brassburg:custom/brassburg_atm_model",
+  "textures": {
+    "all": "brassburg:blocks/_all",
+    "particle": "brassburg:blocks/_all",
+    "13": "brassburg:blocks/_all",
+    "3": "brassburg:blocks/_screen",
+    "16": "brassburg:blocks/_cogwheel",
+    "5": "brassburg:blocks/brassburg_coin",
+    "17": "brassburg:blocks/_backplate"
+  }
+}

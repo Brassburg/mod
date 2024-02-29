@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "13": "_all",
+        "3": "_screen",
+        "16": "_cogwheel",
+        "5": "brassburg_coin",
+        "17": "_backplate"
+      },
+      "name": "default"
+    }
+  }
+}

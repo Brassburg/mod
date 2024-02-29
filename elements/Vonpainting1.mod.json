@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "painting",
+  "definition": {
+    "texture": "von.selfporaite.png",
+    "width": 32,
+    "height": 32,
+    "title": "Vonpainting 1",
+    "author": "VonCrotchBeard"
+  }
+}
