@@ -1,0 +1,30 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "VVV ",
+        "BEBH",
+        "BCB ",
+        "BCB "
+    ],
+    "key": {
+        "V": {
+            "item": "create:electron_tube"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "B": {
+            "item": "create:brass_casing"
+        },
+        "C": {
+            "item": "create:cogwheel"
+        },
+        "H": {
+            "item": "create:copper_valve_handle"
+        }
+    },
+    "result": {
+        "item": "brassburg:atm"
+    },
+    "acceptMirrored": true
+}
