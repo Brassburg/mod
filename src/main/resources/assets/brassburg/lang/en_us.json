@@ -1,12 +1,12 @@
 {
   "advancements.millionaire.title": "Millionaire!",
+  "advancements.moneymoney.title": "Money Money!",
+  "item.brassburg.coin": "Brassburg Coin",
   "block.brassburg.atm": "Brassburg ATM",
   "itemGroup.brassburg.brassburg": "Brassburg",
   "gui.brassburg.atm.label_atm": "ATM",
   "gui.brassburg.atm.label_withdraw": "Withdraw",
   "advancements.millionaire.descr": "You are a rich bitch!",
   "gui.brassburg.atm.label_deposit": "Deposit",
-  "advancements.moneymoney.title": "Money Money!",
-  "item.brassburg.coin": "Brassburg Coin",
   "advancements.moneymoney.descr": "You have just earned your first coin of Brassburg"
 }

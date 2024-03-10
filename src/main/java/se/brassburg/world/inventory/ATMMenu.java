@@ -101,7 +101,4 @@ public class ATMMenu extends AbstractContainerMenu {
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
 	}
-
-	public static void screenInit() {
-	}
 }

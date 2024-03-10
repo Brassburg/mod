@@ -22,8 +22,8 @@
       "registry_name": "coin",
       "metadata": {
         "files": [
-          "src/main/java/se/brassburg/item/BrassburgcoinItem.java",
-          "src/main/resources/assets/brassburg/models/item/coin.json"
+          "src/main/resources/assets/brassburg/models/item/coin.json",
+          "src/main/java/se/brassburg/item/BrassburgcoinItem.java"
         ]
       }
     },
@@ -171,9 +171,9 @@
       "metadata": {
         "files": [
           "src/main/java/se/brassburg/block/BrassburgatmBlock.java",
-          "src/main/resources/assets/brassburg/blockstates/atm.json",
+          "src/main/resources/assets/brassburg/models/item/atm.json",
           "src/main/resources/assets/brassburg/models/block/atm.json",
-          "src/main/resources/assets/brassburg/models/item/atm.json"
+          "src/main/resources/assets/brassburg/blockstates/atm.json"
         ]
       }
     },
@@ -195,8 +195,8 @@
       "registry_name": "atm",
       "metadata": {
         "files": [
-          "src/main/java/se/brassburg/client/gui/ATMScreen.java",
-          "src/main/java/se/brassburg/world/inventory/ATMMenu.java"
+          "src/main/java/se/brassburg/world/inventory/ATMMenu.java",
+          "src/main/java/se/brassburg/client/gui/ATMScreen.java"
         ]
       }
     },
@@ -241,14 +241,14 @@
   "language_map": {
     "en_us": {
       "advancements.millionaire.title": "Millionaire!",
+      "advancements.moneymoney.title": "Money Money!",
+      "item.brassburg.coin": "Brassburg Coin",
       "block.brassburg.atm": "Brassburg ATM",
       "itemGroup.brassburg.brassburg": "Brassburg",
       "gui.brassburg.atm.label_atm": "ATM",
       "gui.brassburg.atm.label_withdraw": "Withdraw",
       "advancements.millionaire.descr": "You are a rich bitch!",
       "gui.brassburg.atm.label_deposit": "Deposit",
-      "advancements.moneymoney.title": "Money Money!",
-      "item.brassburg.coin": "Brassburg Coin",
       "advancements.moneymoney.descr": "You have just earned your first coin of Brassburg"
     }
   },

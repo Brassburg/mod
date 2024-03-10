@@ -5,6 +5,7 @@
 package se.brassburg.init;
 
 import se.brassburg.world.inventory.ATMMenu;
+import se.brassburg.client.gui.ATMScreen;
 import se.brassburg.BrassburgMod;
 
 import net.minecraft.world.inventory.MenuType;
@@ -18,6 +19,6 @@ public class BrassburgModMenus {
 
 	public static void load() {
 		ATM = Registry.register(Registry.MENU, new ResourceLocation(BrassburgMod.MODID, "atm"), new ExtendedScreenHandlerType<>(ATMMenu::new));
-		ATMMenu.screenInit();
+		ATMScreen.screenInit();
 	}
 }

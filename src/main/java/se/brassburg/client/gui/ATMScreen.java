@@ -83,4 +83,7 @@ public class ATMScreen extends AbstractContainerScreen<ATMMenu> {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 	}
+
+	public static void screenInit() {
+	}
 }
