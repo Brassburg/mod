@@ -1,12 +1,15 @@
 {
-  "advancements.moneymoney.title": "Money Money!",
   "advancements.millionaire.title": "Millionaire!",
-  "block.brassburg_mod.brassburgatm": "Brassburg ATM",
-  "item.brassburg.coin": "Brassburg Coin",
   "itemGroup.brassburg_mod.brassburgmod": "Brassburg",
   "block.brassburg.atm": "Brassburg ATM",
-  "item.brassburg_mod.brassburgcoin": "Brassburg Coin",
   "itemGroup.brassburg.brassburg": "Brassburg",
+  "gui.brassburg.atm.label_atm": "ATM",
+  "gui.brassburg.atm.label_withdraw": "Withdraw",
   "advancements.millionaire.descr": "You are a rich bitch!",
+  "gui.brassburg.atm.label_deposit": "Deposit",
+  "advancements.moneymoney.title": "Money Money!",
+  "block.brassburg_mod.brassburgatm": "Brassburg ATM",
+  "item.brassburg.coin": "Brassburg Coin",
+  "item.brassburg_mod.brassburgcoin": "Brassburg Coin",
   "advancements.moneymoney.descr": "You have just earned your first coin of Brassburg"
 }
