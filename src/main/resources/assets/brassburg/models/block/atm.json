@@ -8,5 +8,6 @@
     "16": "brassburg:blocks/_cogwheel",
     "5": "brassburg:blocks/brassburg_coin",
     "17": "brassburg:blocks/_backplate"
-  }
+  },
+  "render_type": "translucent"
 }

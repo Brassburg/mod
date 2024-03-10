@@ -22,8 +22,8 @@
       "registry_name": "coin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/brassburg/models/item/coin.json",
-          "src/main/java/se/brassburg/item/BrassburgcoinItem.java"
+          "src/main/java/se/brassburg/item/BrassburgcoinItem.java",
+          "src/main/resources/assets/brassburg/models/item/coin.json"
         ]
       }
     },
@@ -170,9 +170,9 @@
       "registry_name": "atm",
       "metadata": {
         "files": [
-          "src/main/resources/assets/brassburg/models/block/atm.json",
           "src/main/java/se/brassburg/block/BrassburgatmBlock.java",
           "src/main/resources/assets/brassburg/blockstates/atm.json",
+          "src/main/resources/assets/brassburg/models/block/atm.json",
           "src/main/resources/assets/brassburg/models/item/atm.json"
         ]
       }
@@ -227,5 +227,5 @@
     "modElementsPackage": "se.brassburg",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300222518
+  "mcreatorVersion": 202300224119
 }

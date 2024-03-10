@@ -4,6 +4,7 @@ package se.brassburg.block;
 import se.brassburg.init.BrassburgModBlocks;
 
 import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -32,7 +33,8 @@ import java.util.List;
 import java.util.Collections;
 
 public class BrassburgatmBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL).sound(SoundType.NETHERITE_BLOCK).strength(6f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false);
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL, MaterialColor.TERRACOTTA_ORANGE).sound(SoundType.NETHERITE_BLOCK).strength(6f, 10f).lightLevel(s -> 3).noOcclusion().hasPostProcess((bs, br, bp) -> true)
+			.emissiveRendering((bs, br, bp) -> true).isRedstoneConductor((bs, br, bp) -> false);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public BrassburgatmBlock() {
@@ -43,17 +45,12 @@ public class BrassburgatmBlock extends Block {
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("The ATM for Brassburg"));
-	}
-
-	@Override
-	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
-		return true;
+		list.add(Component.literal("Withdraw and deposit coins with the Brassburg Bank"));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 0;
+		return 13;
 	}
 
 	@Override
