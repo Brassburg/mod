@@ -13,6 +13,7 @@
   },
   "license": "All Rights Reserved",
   "icon": "assets/brassburg/icon.png",
+  "accessWidener": "brassburg.accesswidener",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -23,9 +24,9 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.9",
+    "fabricloader": ">=0.14.21",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": "~1.20",
     "java": ">=17"
   },
   "mixins": [

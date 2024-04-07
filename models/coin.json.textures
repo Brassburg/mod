@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "brassburg_coin",
+        "missing": "brassburg_coin"
+      },
+      "name": "default"
+    },
+    "brass": {
+      "map": {
+        "0": "brassburg_coin",
+        "missing": "brassburg_coin"
+      },
+      "name": "brass"
+    },
+    "zinc": {
+      "map": {
+        "0": "brassburg_zinc_coin",
+        "missing": "brassburg_zinc_coin"
+      },
+      "name": "zinc"
+    },
+    "copper": {
+      "map": {
+        "0": "brassburg_copper_coin",
+        "missing": "brassburg_copper_coin"
+      },
+      "name": "copper"
+    }
+  }
+}

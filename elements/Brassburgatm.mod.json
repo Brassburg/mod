@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "_all",
@@ -33,10 +33,12 @@
         "subtract": false
       }
     ],
-    "name": "Brassburg ATM",
-    "specialInfo": [
-      "Withdraw and deposit coins with the Brassburg Bank"
-    ],
+    "name": "ATM",
+    "specialInformation": {
+      "fixedValue": [
+        "Withdraw and deposit coins with the Brassburg Bank"
+      ]
+    },
     "hardness": 6.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -119,10 +121,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "BrassburgatmOnBlockRightClicked"
-    },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

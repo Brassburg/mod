@@ -13,9 +13,7 @@
 package se.brassburg;
 
 import se.brassburg.init.BrassburgModTabs;
-import se.brassburg.init.BrassburgModProcedures;
 import se.brassburg.init.BrassburgModPaintings;
-import se.brassburg.init.BrassburgModMenus;
 import se.brassburg.init.BrassburgModItems;
 import se.brassburg.init.BrassburgModBlocks;
 
@@ -38,9 +36,6 @@ public class BrassburgMod implements ModInitializer {
 		BrassburgModItems.load();
 
 		BrassburgModPaintings.load();
-		BrassburgModProcedures.load();
-
-		BrassburgModMenus.load();
 
 	}
 }

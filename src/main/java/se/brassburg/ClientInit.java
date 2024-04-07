@@ -12,7 +12,6 @@
 */
 package se.brassburg;
 
-import se.brassburg.init.BrassburgModScreens;
 import se.brassburg.init.BrassburgModBlocks;
 
 import net.fabricmc.api.Environment;
@@ -25,7 +24,6 @@ public class ClientInit implements ClientModInitializer {
 	public void onInitializeClient() {
 
 		BrassburgModBlocks.clientLoad();
-		BrassburgModScreens.load();
 
 	}
 }

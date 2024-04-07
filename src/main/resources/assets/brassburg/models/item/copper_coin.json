@@ -1,0 +1,8 @@
+{
+  "parent": "brassburg:custom/coin",
+  "textures": {
+    "0": "brassburg:block/brassburg_copper_coin",
+    "missing": "brassburg:block/brassburg_copper_coin",
+    "particle": "brassburg:item/brassburg_copper_coin"
+  }
+}

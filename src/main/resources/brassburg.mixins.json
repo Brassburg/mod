@@ -4,8 +4,8 @@
   "package": "se.brassburg.mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-	"BrassburgModRepairItemRecipeMixin"  ],
+      "BrassburgModRepairItemRecipeMixin"  ],
   "injectors": {
-	"defaultRequire": 1
+    "defaultRequire": 1
   }
 }

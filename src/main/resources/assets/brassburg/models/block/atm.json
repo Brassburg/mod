@@ -1,12 +1,13 @@
 {
   "parent": "brassburg:custom/brassburg_atm_model",
   "textures": {
-    "all": "brassburg:blocks/_all",
-    "particle": "brassburg:blocks/_all",
-    "13": "brassburg:blocks/_all",
-    "3": "brassburg:blocks/_screen",
-    "16": "brassburg:blocks/_cogwheel",
-    "5": "brassburg:blocks/brassburg_coin",
-    "17": "brassburg:blocks/_backplate"
-  }
+    "all": "brassburg:block/_all",
+    "particle": "brassburg:block/_all",
+    "13": "brassburg:block/_all",
+    "3": "brassburg:block/_screen",
+    "16": "brassburg:block/_cogwheel",
+    "5": "brassburg:block/brassburg_coin",
+    "17": "brassburg:block/_backplate"
+  },
+  "render_type": "translucent"
 }

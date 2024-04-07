@@ -1,46 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Moneymoney",
-      "type": "achievement",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "moneymoney",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/brassburg/advancements/moneymoney.json"
-        ]
-      }
-    },
-    {
-      "name": "Brassburgcoin",
-      "type": "item",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coin",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/brassburg/models/item/coin.json",
-          "src/main/java/se/brassburg/item/BrassburgcoinItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Millionaire",
-      "type": "achievement",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "millionaire",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/brassburg/advancements/millionaire.json"
-        ]
-      }
-    },
-    {
       "name": "Brassburg",
       "type": "painting",
       "sortid": 4,
@@ -188,50 +148,44 @@
       }
     },
     {
-      "name": "ATM",
-      "type": "gui",
+      "name": "BrassCoin",
+      "type": "item",
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "atm",
+      "registry_name": "brass_coin",
       "metadata": {
         "files": [
-          "src/main/java/se/brassburg/world/inventory/ATMMenu.java",
-          "src/main/java/se/brassburg/client/gui/ATMScreen.java"
+          "src/main/resources/assets/brassburg/models/item/brass_coin.json",
+          "src/main/java/se/brassburg/item/BrassCoinItem.java"
         ]
       }
     },
     {
-      "name": "BrassburgatmOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 18,
+      "name": "CopperCoin",
+      "type": "item",
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "brassburgatm_on_block_right_clicked",
+      "registry_name": "copper_coin",
       "metadata": {
         "files": [
-          "src/main/java/se/brassburg/procedures/BrassburgatmOnBlockRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
+          "src/main/java/se/brassburg/item/CopperCoinItem.java",
+          "src/main/resources/assets/brassburg/models/item/copper_coin.json"
+        ]
+      }
+    },
+    {
+      "name": "ZincCoin",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zinc_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/brassburg/models/item/zinc_coin.json",
+          "src/main/java/se/brassburg/item/ZincCoinItem.java"
         ]
       }
     }
@@ -240,16 +194,13 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "advancements.millionaire.title": "Millionaire!",
-      "advancements.moneymoney.title": "Money Money!",
-      "item.brassburg.coin": "Brassburg Coin",
-      "block.brassburg.atm": "Brassburg ATM",
+      "item_group.brassburg.brassburg": "Brassburg",
+      "block.brassburg.atm": "ATM",
       "itemGroup.brassburg.brassburg": "Brassburg",
       "gui.brassburg.atm.label_atm": "ATM",
-      "gui.brassburg.atm.label_withdraw": "Withdraw",
-      "advancements.millionaire.descr": "You are a rich bitch!",
-      "gui.brassburg.atm.label_deposit": "Deposit",
-      "advancements.moneymoney.descr": "You have just earned your first coin of Brassburg"
+      "item.brassburg.brass_coin": "Brass Coin",
+      "item.brassburg.copper_coin": "Copper Coin",
+      "item.brassburg.zinc_coin": "Zinc Coin"
     }
   },
   "foldersRoot": {
@@ -271,9 +222,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "fabric-1.19.2",
+    "currentGenerator": "fabric-1.20.1",
     "modElementsPackage": "se.brassburg",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300224119
+  "mcreatorVersion": 202300452316
 }
