@@ -188,6 +188,34 @@
           "src/main/java/se/brassburg/item/ZincCoinItem.java"
         ]
       }
+    },
+    {
+      "name": "SteampunkShovel",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steampunk_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/se/brassburg/item/SteampunkShovelItem.java",
+          "src/main/resources/assets/brassburg/models/item/steampunk_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "SteampunkAxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steampunk_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/se/brassburg/item/SteampunkAxeItem.java",
+          "src/main/resources/assets/brassburg/models/item/steampunk_axe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -199,6 +227,8 @@
       "itemGroup.brassburg.brassburg": "Brassburg",
       "gui.brassburg.atm.label_atm": "ATM",
       "item.brassburg.brass_coin": "Brass Coin",
+      "item.brassburg.steampunk_axe": "Brassburg Axe",
+      "item.brassburg.steampunk_shovel": "Brassburg Shovel",
       "item.brassburg.copper_coin": "Copper Coin",
       "item.brassburg.zinc_coin": "Zinc Coin"
     }
@@ -210,10 +240,10 @@
   "workspaceSettings": {
     "modid": "brassburg",
     "modName": "Brassburg Mod",
-    "version": "1.0.2",
+    "version": "2.0.1",
     "description": "A dedicated mod for Brassburg server.",
-    "author": "Tur, JayTurnr, Aufstandsboxer",
-    "websiteURL": "brassburg.se",
+    "author": "Tur, JayTurnr, Aufstandsboxer, NiftyPigDaddy",
+    "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -223,6 +253,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "se.brassburg",
     "lockBaseModFiles": false
   },

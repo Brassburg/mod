@@ -4,6 +4,8 @@
 package se.brassburg.init;
 
 import se.brassburg.item.ZincCoinItem;
+import se.brassburg.item.SteampunkShovelItem;
+import se.brassburg.item.SteampunkAxeItem;
 import se.brassburg.item.CopperCoinItem;
 import se.brassburg.item.BrassCoinItem;
 import se.brassburg.BrassburgMod;
@@ -24,6 +26,8 @@ public class BrassburgModItems {
 	public static Item BRASS_COIN;
 	public static Item COPPER_COIN;
 	public static Item ZINC_COIN;
+	public static Item STEAMPUNK_SHOVEL;
+	public static Item STEAMPUNK_AXE;
 
 	public static void load() {
 		ATM = register("atm", new BlockItem(BrassburgModBlocks.ATM, new Item.Properties()));
@@ -31,6 +35,8 @@ public class BrassburgModItems {
 		BRASS_COIN = register("brass_coin", new BrassCoinItem());
 		COPPER_COIN = register("copper_coin", new CopperCoinItem());
 		ZINC_COIN = register("zinc_coin", new ZincCoinItem());
+		STEAMPUNK_SHOVEL = register("steampunk_shovel", new SteampunkShovelItem());
+		STEAMPUNK_AXE = register("steampunk_axe", new SteampunkAxeItem());
 	}
 
 	public static void clientLoad() {

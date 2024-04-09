@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "id": "brassburg",
-  "version": "1.0.2",
+  "version": "2.0.1",
   "name": "Brassburg Mod",
   "description": "A dedicated mod for Brassburg server.",
   "authors": [
-    "Tur, JayTurnr, Aufstandsboxer"
+    "Tur, JayTurnr, Aufstandsboxer, NiftyPigDaddy"
   ],
   "contact": {
     "homepage": "https://mcreator.net",
