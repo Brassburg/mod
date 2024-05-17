@@ -343,9 +343,9 @@
   "workspaceSettings": {
     "modid": "brassburg",
     "modName": "Brassburg Mod",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "A dedicated mod for Brassburg server.",
-    "author": "Tur, JayTurnr, Aufstandsboxer, NiftyPigDaddy",
+    "author": "Tur, JayTurnr, Aufstandsboxer, NiftyPigDaddy, VonCrotchBeard",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
