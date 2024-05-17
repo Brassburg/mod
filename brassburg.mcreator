@@ -216,21 +216,124 @@
           "src/main/resources/assets/brassburg/models/item/steampunk_axe.json"
         ]
       }
+    },
+    {
+      "name": "Swing",
+      "type": "musicdisc",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swing",
+      "metadata": {
+        "files": [
+          "src/main/java/se/brassburg/item/SwingItem.java",
+          "src/main/resources/assets/brassburg/models/item/swing.json"
+        ]
+      }
+    },
+    {
+      "name": "LocometalDisc",
+      "type": "musicdisc",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locometal_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/brassburg/models/item/locometal_disc.json",
+          "src/main/java/se/brassburg/item/LocometalDiscItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Yearning",
+      "type": "musicdisc",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yearning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/brassburg/models/item/yearning.json",
+          "src/main/java/se/brassburg/item/YearningItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Crisp",
+      "type": "musicdisc",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crisp",
+      "metadata": {
+        "files": [
+          "src/main/java/se/brassburg/item/CrispItem.java",
+          "src/main/resources/assets/brassburg/models/item/crisp.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "swing",
+      "files": [
+        "brassburg_swing_1"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "crisp",
+      "files": [
+        "burned_to_a_crisp"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "locometal",
+      "files": [
+        "locometal1"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "yearning",
+      "files": [
+        "yearning_in_the_depths_1"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
-      "item_group.brassburg.brassburg": "Brassburg",
       "block.brassburg.atm": "ATM",
+      "subtitles.locometal": "",
       "itemGroup.brassburg.brassburg": "Brassburg",
       "gui.brassburg.atm.label_atm": "ATM",
+      "item.brassburg.steampunk_shovel": "Brassburg Shovel",
+      "item.brassburg.crisp.desc": "Brassburg Burning to Crisp",
+      "item.brassburg.zinc_coin": "Zinc Coin",
+      "item.brassburg.yearning": "Yearning",
+      "subtitles.burned.to.a.crisp": "",
+      "item_group.brassburg.brassburg": "Brassburg",
+      "item.brassburg.crisp": "Crisp",
+      "subtitles.crisp": "",
+      "item.brassburg.swing.desc": "Brassburg Swinging",
+      "item.brassburg.yearning.desc": "Brassburg Yearning for the mines",
+      "subtitles.yearning.in.the.depths": "",
+      "subtitles.yearning": "",
+      "item.brassburg.locometal_disc": "Locometal Disc",
       "item.brassburg.brass_coin": "Brass Coin",
       "item.brassburg.steampunk_axe": "Brassburg Axe",
-      "item.brassburg.steampunk_shovel": "Brassburg Shovel",
-      "item.brassburg.copper_coin": "Copper Coin",
-      "item.brassburg.zinc_coin": "Zinc Coin"
+      "item.brassburg.swing": "Swing",
+      "subtitles.swing": "",
+      "item.brassburg.locometal_disc.desc": "Brassburg Locometal Themesong",
+      "item.brassburg.copper_coin": "Copper Coin"
     }
   },
   "foldersRoot": {

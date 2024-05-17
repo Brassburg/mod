@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Yearning",
+    "rarity": "EPIC",
+    "texture": "bb3_music_disc",
+    "description": "Brassburg Yearning for the mines",
+    "creativeTab": {
+      "value": "CUSTOM:Brassburgmod"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:yearning"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Crisp",
+    "rarity": "EPIC",
+    "texture": "bb4_music_disc",
+    "description": "Brassburg Burning to Crisp",
+    "creativeTab": {
+      "value": "CUSTOM:Brassburgmod"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:crisp"
+    },
+    "lengthInTicks": 2000,
+    "analogOutput": 0
+  }
+}

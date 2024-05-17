@@ -1,0 +1,38 @@
+{
+  "swing": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "brassburg:brassburg_swing_1",
+        "stream": true
+      }
+    ]
+  },
+  "crisp": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "brassburg:burned_to_a_crisp",
+        "stream": true
+      }
+    ]
+  },
+  "locometal": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "brassburg:locometal1",
+        "stream": true
+      }
+    ]
+  },
+  "yearning": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "brassburg:yearning_in_the_depths_1",
+        "stream": true
+      }
+    ]
+  }
+}

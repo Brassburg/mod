@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Swing",
+    "rarity": "EPIC",
+    "texture": "bb1_music_disc",
+    "description": "Brassburg Swinging",
+    "creativeTab": {
+      "value": "CUSTOM:Brassburgmod"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:swing"
+    },
+    "lengthInTicks": 2400,
+    "analogOutput": 0
+  }
+}

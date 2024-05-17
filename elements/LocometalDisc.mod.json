@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Locometal Disc",
+    "rarity": "EPIC",
+    "texture": "bb2_music_disc",
+    "description": "Brassburg Locometal Themesong",
+    "creativeTab": {
+      "value": "CUSTOM:Brassburgmod"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:locometal"
+    },
+    "lengthInTicks": 2100,
+    "analogOutput": 0
+  }
+}

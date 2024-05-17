@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "brassburg:item/bb2_music_disc"
+  }
+}
