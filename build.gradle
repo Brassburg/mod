@@ -5,9 +5,9 @@ plugins {
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
-archivesBaseName = 'modid'
-version = '2.0.1'
-group = 'com.yourname.modid'
+archivesBaseName = 'brassburg'
+version = '2.0.2'
+group = 'se.brassburg'
 actualmodid = 'brassburg'
 
 loom {
