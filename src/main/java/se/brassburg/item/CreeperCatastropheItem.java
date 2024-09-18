@@ -16,9 +16,9 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 
 import java.util.List;
 
-public class YearningItem extends RecordItem {
-	public YearningItem() {
-		super(0, BrassburgModSounds.YEARNING, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC), 115);
+public class CreeperCatastropheItem extends RecordItem {
+	public CreeperCatastropheItem() {
+		super(0, BrassburgModSounds.CREEPERCATASTROPHE, new Item.Properties().stacksTo(1).rarity(Rarity.EPIC), 107);
 		ItemGroupEvents.modifyEntriesEvent(BrassburgModTabs.TAB_BRASSBURG).register(content -> content.accept(this));
 	}
 

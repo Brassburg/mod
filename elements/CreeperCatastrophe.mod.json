@@ -2,10 +2,10 @@
   "_fv": 57,
   "_type": "musicdisc",
   "definition": {
-    "name": "Yearning",
+    "name": "Creeper Catastrophe",
     "rarity": "EPIC",
-    "texture": "bb3_music_disc",
-    "description": "Brassburg Yearning for the mines",
+    "texture": "bb5_music_disc",
+    "description": "Brassburg love Creepers",
     "creativeTab": {
       "value": "CUSTOM:Brassburgmod"
     },
@@ -16,9 +16,9 @@
       "fixedValue": false
     },
     "music": {
-      "value": "CUSTOM:yearning"
+      "value": "CUSTOM:creepercatastrophe"
     },
-    "lengthInTicks": 115,
+    "lengthInTicks": 107,
     "analogOutput": 0
   }
 }

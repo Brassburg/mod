@@ -34,5 +34,14 @@
         "stream": true
       }
     ]
+  },
+  "creepercatastrophe": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "brassburg:creeper-catastrophe",
+        "stream": true
+      }
+    ]
   }
 }

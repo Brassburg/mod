@@ -10,6 +10,7 @@ import se.brassburg.item.SteampunkShovelItem;
 import se.brassburg.item.SteampunkAxeItem;
 import se.brassburg.item.LocometalDiscItem;
 import se.brassburg.item.CrispItem;
+import se.brassburg.item.CreeperCatastropheItem;
 import se.brassburg.item.CopperCoinItem;
 import se.brassburg.item.BrassCoinItem;
 import se.brassburg.BrassburgMod;
@@ -36,6 +37,7 @@ public class BrassburgModItems {
 	public static Item LOCOMETAL_DISC;
 	public static Item YEARNING;
 	public static Item CRISP;
+	public static Item CREEPER_CATASTROPHE;
 
 	public static void load() {
 		ATM = register("atm", new BlockItem(BrassburgModBlocks.ATM, new Item.Properties()));
@@ -49,6 +51,7 @@ public class BrassburgModItems {
 		LOCOMETAL_DISC = register("locometal_disc", new LocometalDiscItem());
 		YEARNING = register("yearning", new YearningItem());
 		CRISP = register("crisp", new CrispItem());
+		CREEPER_CATASTROPHE = register("creeper_catastrophe", new CreeperCatastropheItem());
 	}
 
 	public static void clientLoad() {

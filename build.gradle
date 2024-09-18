@@ -5,9 +5,15 @@ plugins {
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
+<<<<<<< Updated upstream
 archivesBaseName = 'brassburg'
 version = '2.0.2'
 group = 'se.brassburg'
+=======
+archivesBaseName = 'modid'
+version = '2.0.3'
+group = 'com.yourname.modid'
+>>>>>>> Stashed changes
 actualmodid = 'brassburg'
 
 loom {
