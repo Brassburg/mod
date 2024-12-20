@@ -286,6 +286,28 @@
           "src/main/java/se/brassburg/item/CreeperCatastropheItem.java"
         ]
       }
+    },
+    {
+      "name": "Vonpainting5",
+      "type": "painting",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vonpainting_5",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vonpainting6",
+      "type": "painting",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vonpainting_6",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],

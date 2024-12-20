@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "painting",
+  "definition": {
+    "texture": "woozy.portrait.png",
+    "width": 32,
+    "height": 32,
+    "title": "WoozyDoogs portrait",
+    "author": "VonCrotchBeard"
+  }
+}

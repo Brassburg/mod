@@ -6,7 +6,7 @@ sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
 archivesBaseName = 'modid'
-version = '2.0.3'
+version = '2.0.4'
 group = 'se.brassburg'
 actualmodid = 'brassburg'
 

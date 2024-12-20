@@ -24,5 +24,7 @@ public class BrassburgModPaintings {
 		Registry.register(BuiltInRegistries.PAINTING_VARIANT, new ResourceLocation(BrassburgMod.MODID, "mrstepipainting_1"), new PaintingVariant(32, 16));
 		Registry.register(BuiltInRegistries.PAINTING_VARIANT, new ResourceLocation(BrassburgMod.MODID, "mrstepipainting_2"), new PaintingVariant(16, 16));
 		Registry.register(BuiltInRegistries.PAINTING_VARIANT, new ResourceLocation(BrassburgMod.MODID, "mrstepipainting_3"), new PaintingVariant(16, 16));
+		Registry.register(BuiltInRegistries.PAINTING_VARIANT, new ResourceLocation(BrassburgMod.MODID, "vonpainting_5"), new PaintingVariant(32, 32));
+		Registry.register(BuiltInRegistries.PAINTING_VARIANT, new ResourceLocation(BrassburgMod.MODID, "vonpainting_6"), new PaintingVariant(32, 32));
 	}
 }
