@@ -346,6 +346,17 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "TrainBlueprint",
+      "type": "painting",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "train_blueprint",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -402,8 +413,8 @@
       "subtitles.burned.to.a.crisp": "",
       "subtitles.crisp": "",
       "item.brassburg.swing.desc": "Brassburg Swinging",
-      "subtitles.yearning": "",
       "item.brassburg.locometal_disc": "Locometal Disc",
+      "subtitles.yearning": "",
       "item.brassburg.brass_coin": "Brass Coin",
       "item.brassburg.swing": "Swing",
       "item.brassburg.locometal_disc.desc": "Brassburg Locometal Themesong",
