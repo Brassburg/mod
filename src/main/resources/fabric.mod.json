@@ -1,18 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "brassburg",
-  "version": "2.0.3",
+  "version": "1.0.3",
   "name": "Brassburg Mod",
   "description": "A dedicated mod for Brassburg server.",
   "authors": [
     "Tur, JayTurnr, Aufstandsboxer, NiftyPigDaddy, VonCrotchBeard"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://www.brassburg.se",
     "sources": ""
   },
   "license": "All Rights Reserved",
-  "icon": "assets/brassburg/icon.png",
   "accessWidener": "brassburg.accesswidener",
   "environment": "*",
   "entrypoints": {
