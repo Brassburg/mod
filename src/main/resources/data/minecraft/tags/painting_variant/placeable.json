@@ -1,18 +1,24 @@
 {
   "replace": false,
   "values": [
-    "brassburg:logo_painting",
-    "brassburg:vonpainting_1",
     "brassburg:vonpainting_2",
     "brassburg:vonpainting_3",
-    "brassburg:vonpainting_4",
     "brassburg:jayturnpainting_1",
     "brassburg:manstedodorpainting_1",
     "brassburg:manstedodorpainting_2",
     "brassburg:mrstepipainting_1",
     "brassburg:mrstepipainting_2",
     "brassburg:mrstepipainting_3",
-    "brassburg:vonpainting_5",
-    "brassburg:vonpainting_6"
+    "brassburg:staff_jab",
+    "brassburg:staff_von",
+    "brassburg:staff_xanth",
+    "brassburg:staff_ji",
+    "brassburg:staff_jay",
+    "brassburg:staff_woozy",
+    "brassburg:vonpainting_1",
+    "brassburg:owner_tur",
+    "brassburg:gcs_1",
+    "brassburg:gcs_2",
+    "brassburg:the_machine"
   ]
 }

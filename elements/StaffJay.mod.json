@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "painting",
+  "definition": {
+    "texture": "minecraft_painting_jay.png",
+    "width": 32,
+    "height": 32,
+    "title": "Staff JayTurnr",
+    "author": "VonCrotchBeard"
+  }
+}

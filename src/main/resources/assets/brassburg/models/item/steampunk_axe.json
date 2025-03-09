@@ -1,7 +1,0 @@
-{
-  "parent": "brassburg:custom/brassburg_axe",
-  "textures": {
-    "0": "brassburg:block/brassburg_axe",
-    "particle": "brassburg:item/brassburg_axe"
-  }
-}

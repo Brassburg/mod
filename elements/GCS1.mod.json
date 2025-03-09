@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "painting",
+  "definition": {
+    "texture": "mc_painting_64x32_gcs.png",
+    "width": 64,
+    "height": 32,
+    "title": "GCS Color",
+    "author": "VonCrotchBeard"
+  }
+}

@@ -2,10 +2,10 @@
   "_fv": 57,
   "_type": "painting",
   "definition": {
-    "texture": "woozy.portrait.png",
-    "width": 32,
+    "texture": "mc_painting_64x32_gcs-2.png",
+    "width": 64,
     "height": 32,
-    "title": "WoozyDoogs portrait",
+    "title": "GCS Dusk",
     "author": "VonCrotchBeard"
   }
 }

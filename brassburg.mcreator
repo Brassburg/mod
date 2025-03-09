@@ -1,31 +1,9 @@
 {
   "mod_elements": [
     {
-      "name": "Brassburg",
-      "type": "painting",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "logo_painting",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
-      "name": "Vonpainting1",
-      "type": "painting",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vonpainting_1",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
       "name": "Vonpainting2",
       "type": "painting",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vonpainting_2",
@@ -36,21 +14,10 @@
     {
       "name": "Vonpainting3",
       "type": "painting",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vonpainting_3",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
-      "name": "Vonpainting4",
-      "type": "painting",
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vonpainting_4",
+      "registry_name": "vonpainting_3",
       "metadata": {
         "files": []
       }
@@ -184,36 +151,8 @@
       "registry_name": "zinc_coin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/brassburg/models/item/zinc_coin.json",
-          "src/main/java/se/brassburg/item/ZincCoinItem.java"
-        ]
-      }
-    },
-    {
-      "name": "SteampunkShovel",
-      "type": "tool",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steampunk_shovel",
-      "metadata": {
-        "files": [
-          "src/main/java/se/brassburg/item/SteampunkShovelItem.java",
-          "src/main/resources/assets/brassburg/models/item/steampunk_shovel.json"
-        ]
-      }
-    },
-    {
-      "name": "SteampunkAxe",
-      "type": "tool",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steampunk_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/se/brassburg/item/SteampunkAxeItem.java",
-          "src/main/resources/assets/brassburg/models/item/steampunk_axe.json"
+          "src/main/java/se/brassburg/item/ZincCoinItem.java",
+          "src/main/resources/assets/brassburg/models/item/zinc_coin.json"
         ]
       }
     },
@@ -226,8 +165,8 @@
       "registry_name": "swing",
       "metadata": {
         "files": [
-          "src/main/java/se/brassburg/item/SwingItem.java",
-          "src/main/resources/assets/brassburg/models/item/swing.json"
+          "src/main/resources/assets/brassburg/models/item/swing.json",
+          "src/main/java/se/brassburg/item/SwingItem.java"
         ]
       }
     },
@@ -288,23 +227,122 @@
       }
     },
     {
-      "name": "Vonpainting5",
+      "name": "StaffJab",
       "type": "painting",
-      "sortid": 28,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vonpainting_5",
+      "registry_name": "staff_jab",
       "metadata": {
         "files": []
       }
     },
     {
-      "name": "Vonpainting6",
+      "name": "StaffVon",
       "type": "painting",
-      "sortid": 29,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "vonpainting_6",
+      "registry_name": "staff_von",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StaffXanth",
+      "type": "painting",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staff_xanth",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StaffJi",
+      "type": "painting",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staff_ji",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StaffJay",
+      "type": "painting",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staff_jay",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StaffWoozy",
+      "type": "painting",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staff_woozy",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vonpainting1",
+      "type": "painting",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vonpainting_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "OwnerTur",
+      "type": "painting",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "owner_tur",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GCS1",
+      "type": "painting",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gcs_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GCS2",
+      "type": "painting",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gcs_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TheMachine",
+      "type": "painting",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_machine",
       "metadata": {
         "files": []
       }
@@ -358,7 +396,6 @@
       "block.brassburg.atm": "ATM",
       "subtitles.creepercatastrophe": "",
       "gui.brassburg.atm.label_atm": "ATM",
-      "item.brassburg.steampunk_shovel": "Brassburg Shovel",
       "item.brassburg.crisp.desc": "Brassburg Burning to Crisp",
       "item.brassburg.creeper_catastrophe.desc": "Brassburg love Creepers",
       "item.brassburg.yearning": "Yearning",
@@ -377,7 +414,6 @@
       "item.brassburg.crisp": "Crisp",
       "item.brassburg.yearning.desc": "Brassburg Yearning for the mines",
       "subtitles.yearning.in.the.depths": "",
-      "item.brassburg.steampunk_axe": "Brassburg Axe",
       "subtitles.swing": "",
       "item.brassburg.copper_coin": "Copper Coin",
       "item.brassburg.creeper_catastrophe": "Creeper Catastrophe"
@@ -390,20 +426,19 @@
   "workspaceSettings": {
     "modid": "brassburg",
     "modName": "Brassburg Mod",
-    "version": "2.0.3",
+    "version": "1.0.3",
     "description": "A dedicated mod for Brassburg server.",
     "author": "Tur, JayTurnr, Aufstandsboxer, NiftyPigDaddy, VonCrotchBeard",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://www.brassburg.se",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "pxart",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Brassburg, Inc",
     "modElementsPackage": "se.brassburg",
     "lockBaseModFiles": false
   },
