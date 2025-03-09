@@ -33,5 +33,6 @@ public class BrassburgModPaintings {
 		Registry.register(BuiltInRegistries.PAINTING_VARIANT, new ResourceLocation(BrassburgMod.MODID, "gcs_2"), new PaintingVariant(64, 32));
 		Registry.register(BuiltInRegistries.PAINTING_VARIANT, new ResourceLocation(BrassburgMod.MODID, "the_machine"), new PaintingVariant(16, 32));
 		Registry.register(BuiltInRegistries.PAINTING_VARIANT, new ResourceLocation(BrassburgMod.MODID, "train_blueprint"), new PaintingVariant(64, 32));
+		Registry.register(BuiltInRegistries.PAINTING_VARIANT, new ResourceLocation(BrassburgMod.MODID, "train_1"), new PaintingVariant(32, 16));
 	}
 }
